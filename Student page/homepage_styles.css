@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Smooth scrolling animation */
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto; /* Center the container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    backdrop-filter: blur(10px); /* Blur effect */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger heading for emphasis */
+    color: #2B2B2B; /* Darker text color for contrast */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.button {
+    padding: 15px 30px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    background-color: #007BFF; /* Initial button background color */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animation effects for smooth transitions */
+}
+
+.button:hover {
+    background-color: red; /* Change to red on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.button:active {
+    background-color: darkred; /* Change color when clicked */
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 2em; /* Adjust heading size for tablets */
+    }
+
+    .button {
+        padding: 12px 25px; /* Medium padding for buttons on tablets */
+        font-size: 16px; /* Adjust button text size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 1.8em; /* Adjust heading size for mobile devices */
+    }
+
+    .button {
+        padding: 10px 20px; /* Smaller padding for buttons on mobile devices */
+        font-size: 14px; /* Adjust button text size for mobile devices */
+    }
+}

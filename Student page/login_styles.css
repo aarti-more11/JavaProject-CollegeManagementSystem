@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    padding: 15px;  /* uniform padding for input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%; /* Ensures inputs take full width */
+    box-sizing: border-box;  /* include padding and border in element's total width and height */
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    padding: 15px;  /* uniform padding for button */
+    background-color: green;  /* set button color to green */
+    color: white;  /* text color */
+    border: none;  /* no border */
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* make it full width */
+    box-sizing: border-box;  /* include padding and border in element's total width and height */
+}
+
+button:hover {
+    background-color: darkgreen;  /* darken button on hover */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.back-home, .back-register {
+    padding: 10px 20px;
+    border-radius: 20px;  /* rounded corners */
+    text-decoration: none;  /* remove underline */
+    color: white;  /* text color */
+    font-size: 16px;
+}
+
+.back-home {
+    background-color: red;  /* red color for back to home button */
+}
+
+.back-register {
+    background-color: violet;  /* violet color for back to register button */
+}
+
+.back-home:hover {
+    background-color: darkred;  /* darken on hover */
+}
+
+.back-register:hover {
+    background-color: darkviolet;  /* darken on hover */
+}
