@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth; /* Smooth scrolling animation */
+    scroll-behavior: smooth; 
 }
 
 .background-image {
@@ -22,49 +22,48 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 100px auto; /* Center the container */
+    margin: 100px auto; 
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
-    backdrop-filter: blur(10px); /* Blur effect */
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
 }
 
 h1 {
-    font-size: 2.5em; /* Larger heading for emphasis */
-    color: #2B2B2B; /* Darker text color for contrast */
-    margin-bottom: 20px; /* Spacing below heading */
+    font-size: 2.5em; 
+    color: #2B2B2B; 
+    margin-bottom: 20px; 
 }
 
 .button-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between buttons */
+    gap: 20px; 
 }
 
 .button {
-    padding: 15px 30px; /* Button padding */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    text-decoration: none; /* Remove underline */
-    color: white; /* Text color */
-    background-color: #007BFF; /* Initial button background color */
-    border: none; /* No border */
-    border-radius: 25px; /* Rounded corners */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Animation effects for smooth transitions */
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    color: white; 
+    background-color: #007BFF; 
+    border: none; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
 }
 
 .button:hover {
-    background-color: red; /* Change to red on hover */
-    transform: scale(1.05); /* Slightly enlarge button on hover */
+    background-color: red; 
+    transform: scale(1.05); 
 }
 
 .button:active {
-    background-color: darkred; /* Change color when clicked */
+    background-color: darkred; 
 }
 
-/* Responsive Design */
 
 @media (max-width: 768px) {
     .container {
@@ -73,12 +72,12 @@ h1 {
     }
 
     h1 {
-        font-size: 2em; /* Adjust heading size for tablets */
+        font-size: 2em; 
     }
 
     .button {
-        padding: 12px 25px; /* Medium padding for buttons on tablets */
-        font-size: 16px; /* Adjust button text size for tablets */
+        padding: 12px 25px; 
+        font-size: 16px; 
     }
 }
 
@@ -89,11 +88,11 @@ h1 {
     }
 
     h1 {
-        font-size: 1.8em; /* Adjust heading size for mobile devices */
+        font-size: 1.8em; 
     }
 
     .button {
-        padding: 10px 20px; /* Smaller padding for buttons on mobile devices */
-        font-size: 14px; /* Adjust button text size for mobile devices */
+        padding: 10px 20px; 
+        font-size: 14px; 
     }
 }
