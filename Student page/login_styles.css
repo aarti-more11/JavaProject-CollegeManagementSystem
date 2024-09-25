@@ -35,12 +35,12 @@ label {
 }
 
 input {
-    padding: 15px;  /* uniform padding for input fields */
+    padding: 15px;  
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    width: 100%; /* Ensures inputs take full width */
-    box-sizing: border-box;  /* include padding and border in element's total width and height */
+    width: 100%; 
+    box-sizing: border-box;  
 }
 
 input:focus {
@@ -49,19 +49,19 @@ input:focus {
 }
 
 button {
-    padding: 15px;  /* uniform padding for button */
-    background-color: green;  /* set button color to green */
-    color: white;  /* text color */
-    border: none;  /* no border */
+    padding: 15px;  
+    background-color: green; 
+    color: white;  
+    border: none;  
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    width: 100%; /* make it full width */
-    box-sizing: border-box;  /* include padding and border in element's total width and height */
+    width: 100%; 
+    box-sizing: border-box;  
 }
 
 button:hover {
-    background-color: darkgreen;  /* darken button on hover */
+    background-color: darkgreen;  
 }
 
 .button-container {
@@ -72,24 +72,24 @@ button:hover {
 
 .back-home, .back-register {
     padding: 10px 20px;
-    border-radius: 20px;  /* rounded corners */
-    text-decoration: none;  /* remove underline */
-    color: white;  /* text color */
+    border-radius: 20px;  
+    text-decoration: none;  
+    color: white;  
     font-size: 16px;
 }
 
 .back-home {
-    background-color: red;  /* red color for back to home button */
+    background-color: red;  
 }
 
 .back-register {
-    background-color: violet;  /* violet color for back to register button */
+    background-color: violet;  
 }
 
 .back-home:hover {
-    background-color: darkred;  /* darken on hover */
+    background-color: darkred;  
 }
 
 .back-register:hover {
-    background-color: darkviolet;  /* darken on hover */
+    background-color: darkviolet;  
 }
